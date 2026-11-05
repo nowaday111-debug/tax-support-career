@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hóa đơn &amp; Tờ khai — Bản dùng thử</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;max-width:1100px;margin:0 auto;padding:16px;line-height:1.5}
+.banner{background:#b91c1c;color:#fff;padding:12px 16px;border-radius:8px;font-weight:700}
+.card{border:1px solid #ddd;border-radius:8px;padding:14px;margin:12px 0}
+input,select,textarea,button{padding:7px;margin:3px;font-size:14px}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border:1px solid #ddd;padding:5px;text-align:left}
+h2{margin-top:28px}.muted{color:#555;font-size:13px}pre{white-space:pre-wrap;background:#f6f6f6;padding:10px;border-radius:6px}
+</style>
+</head>
+<body>
+<div class="banner">BẢN DÙNG THỬ — KHÔNG NỘP THUẾ THẬT, KHÔNG DÙNG DỮ LIỆU THẬT</div>
+<h1>Hóa đơn &amp; Tờ khai — 01/GTGT &amp; PL 142 (bản dùng thử)</h1>
+<p class="muted">Không tích hợp nhà cung cấp hóa đơn, không ký số, không nộp lên cổng thuế. File XML chỉ để import vào HTKK. File bảng kê là bảng kê chung, <b>không phải</b> mẫu MISA Offline theo phiên bản cụ thể (vì phiên bản MISA đích chưa được chốt).</p>
+
+<div class="card">
+<h2>1. Dữ liệu mẫu</h2>
+<button id="seedBtn">Nạp dữ liệu mẫu</button>
+<span id="seedMsg" class="muted"></span>
+<p class="muted">Mẫu gồm: tháng 6/2026 (TT80), tháng 7/2026 (có hàng bán bị trả lại), tháng 8/2026 (chỉ mua vào giảm thuế — kiểm chứng PL 142 không sinh).</p>
+</div>
+
+<div class="card">
+<h2>2. Tạo kỳ</h2>
+<label>MST công ty <input id="companyId" placeholder="id công ty (xem danh sách kỳ bên dưới)"></label>
+<label>Loại kỳ <select id="periodType"><option value="MONTH">Tháng</option><option value="QUARTER">Quý</option></select></label>
+<label>Kỳ <input id="periodKey" placeholder="2026-09 hoặc 2026-Q4"></label>
+<label>Chỉ tiêu 22 nhập tay (kỳ đầu, mặc định 0) <input id="prev43" type="number" value="0"></label>
+<button id="createPeriod">Tạo kỳ</button>
+<p class="muted">Mẫu biểu: 01/GTGT TT80 (HTKK maTKhai 842, bản 2.8.3) cho mọi kỳ — HTKK chưa phát hành 01/GTGT TT89.</p>
+</div>
+
+<div class="card">
+<h2>3. Danh sách kỳ</h2>
+<button id="reload">Tải lại</button>
+<div id="periods"></div>
+</div>
+
+<div class="card">
+<h2>4. Chi tiết kỳ đang chọn</h2>
+<p>Chọn kỳ ở mục 3 để xem hóa đơn, tính tờ khai, khóa kỳ, bổ sung, đối soát và xuất file.</p>
+<div id="detail"></div>
+</div>
+
+<div class="card" id="dvcCard">
+<h2>5. Đồng bộ tờ khai từ dichvucong.gdt.gov.vn</h2>
+<p id="dvcMode" class="muted"></p>
+<div id="dvcLogin">
+  <h3>Bước 1 — Đăng nhập cổng thuế</h3>
+  <label>Công ty <select id="dvcCompany"><option value="">(Tự tạo theo MST đăng nhập)</option></select></label>
+  <label>Tên đăng nhập (MST) <input id="dvcUser" autocomplete="username"></label>
+  <button id="dvcOpen">Lấy mã captcha</button>
+  <div id="dvcLoginStep2" hidden>
+    <p><img id="dvcLoginCaptcha" alt="Mã captcha" style="height:48px;border:1px solid #ccc;vertical-align:middle">
+      <button id="dvcLoginCaptchaRefresh" type="button">Đổi mã</button></p>
+    <label>Mật khẩu <input id="dvcPass" type="password" autocomplete="current-password"></label>
+    <label>Mã captcha <input id="dvcLoginCaptchaInput" size="8" autocomplete="off"></label>
+    <button id="dvcLoginBtn">Đăng nhập</button>
+    <p id="dvcLoginCaptchaHint" class="muted"></p>
+    <p class="muted">Mật khẩu chỉ được gửi lên cổng thuế một lần để đăng nhập, phần mềm không lưu.</p>
+  </div>
+  <p id="dvcLoginMsg"></p>
+</div>
+<div id="dvcSync" hidden>
+  <h3>Bước 2 — Đồng bộ tờ khai</h3>
+  <p id="dvcWho"></p>
+  <label>Từ ngày <input id="dvcFrom" type="date"></label>
+  <label>Đến ngày <input id="dvcTo" type="date"></label>
+  <label><input id="dvcDownload" type="checkbox" checked> Tải file tờ khai (XML) về máy</label>
+  <button id="dvcSyncBtn">Đồng bộ</button> <button id="dvcLogout" type="button">Đăng xuất</button>
+  <p id="dvcEstimate" class="muted"></p>
+</div>
+<div id="dvcJob" hidden>
+  <h3>Tiến trình</h3>
+  <p id="dvcJobStatus"></p>
+  <div id="dvcCaptchaBox" hidden style="background:#fff7e6;border:1px solid #f0b429;padding:10px;border-radius:6px">
+    <p id="dvcCaptchaMsg"><b>Cổng yêu cầu nhập captcha để tra cứu:</b></p>
+    <img id="dvcJobCaptcha" alt="Mã captcha" style="height:48px;border:1px solid #ccc;vertical-align:middle">
+    <button id="dvcJobCaptchaRefresh" type="button">Đổi mã</button>
+    <input id="dvcJobCaptchaInput" size="8" autocomplete="off" placeholder="Nhập mã">
+    <button id="dvcJobCaptchaSend">Tiếp tục</button>
+  </div>
+  <button id="dvcCancel" type="button">Hủy</button>
+  <pre id="dvcLog" style="max-height:220px;overflow:auto"></pre>
+</div>
+<h3>Tờ khai đã đồng bộ <button id="dvcReloadFilings" type="button">Tải lại</button></h3>
+<p class="muted">File lưu trên máy tại thư mục <code>data/tokhai/&lt;MST&gt;/&lt;năm&gt;/</code> (file ZIP gốc của cổng + các file XML bên trong).</p>
+<div id="dvcFilings"></div>
+</div>
+
+<script src="app.js"></script>
+<script src="dvc.js"></script>
+</body>
+</html>

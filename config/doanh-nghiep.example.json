@@ -1,0 +1,23 @@
+{
+  "_ghi_chu": "Sao chép thành doanh-nghiep.json rồi sửa. Mã tỉnh, mã cơ quan thuế lấy theo danh mục HTKK (InterfaceIni/Catalogue_*.xml).",
+  "taxpayer": {
+    "taxCode": "0100000001",
+    "name": "CÔNG TY TNHH MẪU",
+    "address": "Số 1 đường Mẫu",
+    "wardName": "",
+    "districtCode": "",
+    "districtName": "",
+    "provinceCode": "101",
+    "provinceName": "Thành phố Hà Nội",
+    "phone": "",
+    "fax": "",
+    "email": ""
+  },
+  "taxOffice": { "code": "10109", "name": "Thuế cơ sở 4 Thành phố Hà Nội" },
+  "signer": "NGUYỄN VĂN A",
+  "tieuMuc": "1701",
+  "previous": { "ct43": 0 },
+  "manual": { "37": 0, "38": 0 },
+  "nonDeductibleKeys": [],
+  "options": { "includeNoVatPurchasesIn23": false, "purchasesOutOfPeriod": "include", "excludeKeys": [] }
+}

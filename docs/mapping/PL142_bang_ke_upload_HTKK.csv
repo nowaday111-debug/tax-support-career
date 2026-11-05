@@ -1,0 +1,11 @@
+﻿muc,cot,ten_truong,kieu_du_lieu,cot_excel,thuoc_tinh,rang_buoc
+I,(1),STT,Num(20),B,Tự động tăng,
+I,(2),"Tên hàng hóa, dịch vụ",Char(150),C,,Tối đa 150 ký tự
+I,(3),Giá trị HHDV mua vào chưa có thuế GTGT được khấu trừ trong kỳ,Num(15),D,,Số nguyên >= 0
+I,(4),Thuế GTGT của HHDV mua vào được khấu trừ trong kỳ,Num(15),E,,Số nguyên > 0
+II,(1),STT,Num(20),B,Tự động tăng,
+II,(2),"Tên hàng hóa, dịch vụ",Char(150),C,Bắt buộc nhập,Tối đa 150 ký tự
+II,(3),Giá trị HHDV chưa có thuế GTGT / Doanh thu HHDV chịu thuế,Num(15),D,Bắt buộc nhập,Số nguyên > 0
+II,(4),Thuế suất thuế GTGT theo quy định,Num(2),E,,Khi tải lên mặc định = 10%
+II,(5),Thuế suất thuế GTGT sau giảm (5)=(4)x80%,Num(2),F,,Khi tải lên mặc định = 8%
+II,(6),Thuế GTGT của HHDV bán ra được giảm (6)=(3)x[(4)-(5)],Num(15),G,,Ứng dụng tính khi tải bảng kê lên

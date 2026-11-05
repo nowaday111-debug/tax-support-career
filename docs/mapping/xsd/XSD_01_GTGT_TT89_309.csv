@@ -1,0 +1,304 @@
+﻿path,type,minOccurs,maxOccurs,flags,documentation
+/HSoThueDTu,[complex],1,1,,Phần tử gốc của tệp hồ sơ điện tử
+/HSoThueDTu/HSoKhaiThue,[complex],1,1,,Toàn bộ dữ liệu của hồ sơ điện tử
+/HSoThueDTu/HSoKhaiThue/TTinChung,[complex],1,1,,Thông tin chung
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu,[complex],1,1,,Thông tin dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/maDVu,xs:string,1,1,,Mã dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/tenDVu,xs:token,1,1,,Tên dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/pbanDVu,xs:string,1,1,,Phiên bản dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/ttinNhaCCapDVu,xs:string,1,1,,Thông tin nhà cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue,[complex],1,1,,Thông tin tờ khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue,[complex],1,1,,Tờ khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/maTKhai,xs:string,1,1,,Mã tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/tenTKhai,xs:token,1,1,,Tên tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/moTaBMau,xs:string,1,1,,Mô tả biểu mẫu
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/pbanTKhaiXML,xs:string,1,1,,Phiên bản tờ khai XML
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/loaiTKhai,xs:string{pattern=C|B|T},1,1,,Loại tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/soLan,xs:nonNegativeInteger,1,1,,Số lần
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue,[complex],1,1,,Kỳ kê khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kieuKy,xs:string{pattern=D|M|Y|K|Q|LD|DK},1,1,,Kiểu kỳ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhai,xs:string,1,1,,"Quý: Q/YYYY, ngày: DD/MM/YYYY, tháng: MM/YYYY, năm: YYYY, Kỳ: K/YYYY"
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiTuNgay,xs:string,1,1,,Định dạng DD/MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiDenNgay,xs:string,1,1,,Định dạng DD/MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiTuThang,xs:string,1,1,,Định dạng MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiDenThang,xs:string,1,1,,Định dạng MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/maCQTNoiNop,xs:string,1,1,,Mã CQT nơi nộp
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/tenCQTNoiNop,xs:token,1,1,,Tên CQT nơi nộp
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/ngayLapTKhai,xs:string,1,1,,Ngày lập tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan,[complex],0,1,,Gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan/maLyDoGiaHan,xs:string,1,1,,Mã lý do gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan/lyDoGiaHan,xs:string,1,1,,Tên lý do gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/nguoiKy,xs:string,1,1,nillable ,Người ký
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/ngayKy,xs:date,1,1,,Ngày ký
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/nganhNgheKD,xs:string,1,1,,Ngành nghề kinh doanh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT,[complex],1,1,,Người nộp thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/mst,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,,Mã số thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenNNT,xs:token,1,1,,Tên NNT
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/dchiNNT,xs:token,1,1,,Địa chỉ NNT
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenXaNNT,xs:string,1,1,,Tên xã
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/maXaNNT,xs:string,1,1,,Mã xã
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/maHuyenNNT,xs:string,1,1,nillable ,Mã huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenHuyenNNT,xs:string,1,1,nillable ,Tên huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/maTinhNNT,xs:string,1,1,,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenTinhNNT,xs:string,1,1,,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/dthoaiNNT,xs:string,1,1,,Điện thoại
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/faxNNT,xs:string,1,1,,Fax
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/emailNNT,xs:string,1,1,,Email
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue,[complex],0,1,,Đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/mstDLyThue,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,nillable ,Mã số thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenDLyThue,xs:token,1,1,,Tên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/dchiDLyThue,xs:token,1,1,,Địa chỉ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/maHuyenDLyThue,xs:string,1,1,nillable ,Mã huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenHuyenDLyThue,xs:string,1,1,nillable ,Tên huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/maTinhDLyThue,xs:string,1,1,,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenTinhDLyThue,xs:string,1,1,,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/dthoaiDLyThue,xs:string,1,1,,Điện thoại
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/faxDLyThue,xs:string,1,1,,Fax
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/emailDLyThue,xs:string,1,1,,Email
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/soHDongDLyThue,xs:string,1,1,,Số hợp đồng đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/ngayKyHDDLyThue,xs:date,1,1,nillable ,Ngày ký hợp đồng
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy,[complex],1,1,,Nhân viên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy/tenNVienDLyThue,xs:token,1,1,,Tên nhân viên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy/cchiHNghe,xs:string,1,1,,Chứng chỉ hành nghề
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh,[complex],1,1,,Chỉ tiêu tờ khai chính
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ma_NganhNghe,xs:string,1,1,nillable ,Mã ngành nghề
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ten_NganhNghe,xs:string,1,1,nillable ,Tên ngành nghề
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/tieuMucHachToan,tieuMucHT_empty(xs:string{pattern=1701|1704|1705|0000|1761|1052|1056|1057}),1,1,,Tiểu mục hạch toán
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header,[complex],1,1,nillable ,Thông tin chung
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/ct09,xs:string,1,1,nillable ,[09] Tên đơn vị phụ thuộc/địa điểm kinh doanh của hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính:
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/ct10,xs:string,1,1,nillable ,[10] Mã số thuế đơn vị phụ thuộc/Mã số địa điểm kinh doanh:
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/DiaChiHDSXKDKhacTinhNDTSC,[complex],1,1,,[11] Địa chỉ nơi có hoạt động sản xuất kinh doanh khác tỉnh nơi đóng trụ sở chính:
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/DiaChiHDSXKDKhacTinhNDTSC/ct11a_phuongXa_ma,xs:string,1,1,nillable ,[11a] Xã/ phường/ đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/DiaChiHDSXKDKhacTinhNDTSC/ct11a_phuongXa_ten,xs:string,1,1,nillable ,[11a] Xã/ phường/ đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/DiaChiHDSXKDKhacTinhNDTSC/ct11c_tinhTP_ma,xs:string,1,1,nillable ,[11c] Tỉnh/Thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/Header/DiaChiHDSXKDKhacTinhNDTSC/ct11c_tinhTP_ten,xs:string,1,1,nillable ,[11c] Tỉnh/Thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct21,xs:boolean,1,1,nillable ,"Không phát sinh hoạt động mua, bán trong kỳ (đánh dấu ""X"")"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct22,xs:nonNegativeInteger,1,1,nillable ,Thuế giá trị gia tăng còn được khấu trừ kỳ trước chuyển sang
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/GiaTriVaThueGTGTHHDVMuaVao,[complex],1,1,,"Giá trị và thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/GiaTriVaThueGTGTHHDVMuaVao/ct23,xs:long,1,1,nillable ,"Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/GiaTriVaThueGTGTHHDVMuaVao/ct24,xs:long,1,1,nillable ,Thuế giá trị gia tăng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HangHoaDichVuNhapKhau,[complex],1,1,,Trong đó: hàng hóa nhập khẩu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HangHoaDichVuNhapKhau/ct23a,xs:long,1,1,nillable ,"Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng)"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HangHoaDichVuNhapKhau/ct24a,xs:long,1,1,nillable ,Thuế giá trị gia tăng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct25,xs:long,1,1,nillable ,"Thuế giá trị gia tăng của hàng hóa, dịch vụ mua vào được khấu trừ kỳ này"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct26,xs:long,1,1,nillable ,"Hàng hóa, dịch vụ bán ra không chịu thuế giá trị gia tăng"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuThueGTGT,[complex],1,1,,"Hàng hóa, dịch vụ bán ra chịu thuế giá trị gia tăng ([27]=[29]+[30]+[32]+[32a]-[32b]; [28]=[31]+[33])"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuThueGTGT/ct27,xs:long,1,1,nillable ,"Giá trị hàng hóa, dịch vụ (chưa có thuế giá trị gia tăng) ([27]=[29]+[30]+[32]+[32a]"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuThueGTGT/ct28,xs:long,1,1,nillable ,Thuế giá trị gia tăng ([28]=[31]+[33])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct29,xs:long,1,1,nillable ,"Hàng hoá, dịch vụ bán ra chịu thuế suất 0%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat5,[complex],1,1,,"Hàng hoá, dịch vụ bán ra chịu thuế suất 5%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat5/ct30,xs:long,1,1,nillable ,"Giá trị của Hàng hoá, dịch vụ bán ra chịu thuế suất 5%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat5/ct31,xs:long,1,1,nillable ,"Thuế GTGT của Hàng hoá, dịch vụ bán ra chịu thuế suất 5%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat10,[complex],1,1,,"Hàng hoá, dịch vụ bán ra chịu thuế suất 10%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat10/ct32,xs:long,1,1,nillable ,"Giá Trị của Hàng hoá, dịch vụ bán ra chịu thuế suất 10%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/HHDVBRaChiuTSuat10/ct33,xs:long,1,1,nillable ,"Thuế GTGT của Hàng hoá, dịch vụ bán ra chịu thuế suất 10%"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct32a,xs:long,1,1,nillable ,"Hàng hoá, dịch vụ bán ra không kê khai tính nộp thuế"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct32b,xs:long,1,1,nillable ,"Hàng hoá, dịch vụ bán ra không tính vào giá tính thuế giá trị gia tăng"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct34a,xs:long,1,1,nillable ,"Hàng hoá, dịch vụ bán ra không thuộc phạm vi điều chỉnh của pháp luật thuế giá trị gia tăng"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/TongDThuVaThueGTGTHHDVBRa,[complex],1,1,,"Tổng doanh thu và thuế giá trị gia tăng của hàng hóa, dịch vụ bán ra ([34]=[26]+[27]+[34a]; [35]=[28])"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/TongDThuVaThueGTGTHHDVBRa/ct34,xs:long,1,1,nillable ,Tổng doanh thu của HHDV bán ra ([34]=[26]+[27]+[34a]
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/TongDThuVaThueGTGTHHDVBRa/ct35,xs:long,1,1,nillable ,Tổng thuế GTGT của HHDV bán ra ([35]=[28])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct36,xs:long,1,1,nillable ,Thuế giá trị gia tăng phát sinh trong kỳ ([36]=[35]-[25])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct37,xs:long,1,1,nillable ,Điều chỉnh giảm
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct38,xs:long,1,1,nillable ,Điều chỉnh tăng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct39a,xs:long,1,1,nillable ,Thuế giá trị gia tăng nhận bàn giao được khấu trừ trong kỳ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct40a,xs:nonNegativeInteger,1,1,nillable ,Thuế giá trị gia tăng phải nộp của hoạt động sản xuất kinh doanh trong kỳ {[40a]=([36]-[22]+[37]-[38]-[39a]) ≥ 0}
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct40b,xs:long,1,1,nillable ,Thuế giá trị gia tăng mua vào của dự án đầu tư được bù trừ với thuế GTGT còn phải nộp của hoạt động sản xuất kinh doanh cùng kỳ tính thuế ([40b]≤[40a])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct40,xs:nonNegativeInteger,1,1,nillable ,Thuế giá trị gia tăng còn phải nộp trong kỳ ([40]=[40a]-[40b])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct41,xs:nonNegativeInteger,1,1,nillable ,Thuế giá trị gia tăng chưa khấu trừ hết kỳ này {[41]=([36]-[22]+[37]-[38]-[39a]) ≤ 0}
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct42,xs:long,1,1,nillable ,Thuế giá trị gia tăng đề nghị hoàn ([42] ≤ [41])
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ct43,xs:long,1,1,nillable ,Thuế giá trị gia tăng còn được khấu trừ chuyển kỳ sau ([43]=[41]-[42])
+/HSoThueDTu/HSoKhaiThue/PLuc,[complex] type=PLucType,0,1,,Phụ lục
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay,[complex],1,unbounded,nillable ,
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/sTT,xs:string,1,1,nillable ,Số thứ tự
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/ten_nhaMay,xs:string,1,1,nillable ,Tên nhà máy
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/ma_nhaMay,xs:string,1,1,nillable ,Mã nhà máy
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo,[complex],1,unbounded,nillable ,Nhà máy
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/sTT,xs:string,1,1,nillable ,Số thứ tự
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/tenLoai,xs:string,1,1,nillable ,"Tên Loại"" 01: Nơi có văn phòng điều hành nhà máy, 02: Nơi có nhà máy thủy điện (khác nơi có văn phòng điều hành)"
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/maLoai,xs:string,1,1,nillable ,"Mã Loại"" 01: Nơi có văn phòng điều hành nhà máy, 02: Nơi có nhà máy thủy điện (khác nơi có văn phòng điều hành)"
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct05,xs:string,1,1,nillable ,Tên địa bàn theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct06,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ma_xa,xs:string,1,1,nillable ,Xã/ phường/ đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ten_xa,xs:string,1,1,nillable ,Xã/ phường/ đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct08_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct08_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct09_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct09_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct10,xs:nonNegativeInteger,1,1,nillable ,Số thuế GTGT phải nộp của nhà máy thủy điện
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct11,xs:decimal,1,1,nillable ,Tỷ lệ phân bổ (%)
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/ct12,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/DiaBanPhanBo/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/ct10_a,xs:nonNegativeInteger,1,1,nillable ,Tổng cộng Số thuế GTGT phải nộp của nhà máy thủy điện
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/ct11_a,xs:decimal,1,1,nillable ,Tổng tỷ lệ phân bổ (%) của mỗi nhà máy
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/ct12_a,xs:nonNegativeInteger,1,1,nillable ,Tổng số thuế phải nộp cho từng tỉnh tại mỗi nhà máy
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/TenNhaMay/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/ct13,xs:nonNegativeInteger,1,1,nillable ,Tổng cộng Số thuế GTGT phải nộp của nhà máy thủy điện
+/HSoThueDTu/HSoKhaiThue/PLuc/PLuc_01_2_GTGT/ct14,xs:nonNegativeInteger,1,1,nillable ,Tổng cộng số thuế phải nộp cho từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/ct06,xs:nonNegativeInteger,1,1,nillable ,Tổng doanh thu thực tế
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo,[complex],0,unbounded,nillable ,Địa bàn
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/tenLoai,xs:string,1,1,nillable ,Tên - 01:Tên đơn vị phụ thuộc khác tỉnh với nơi NNT đóng trụ sở chính. 02:Tên địa điểm kinh doanh khác tỉnh với nơi NNT đóng trụ sở chính. 03:Nơi không có đơn vị phụ thuộc/địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/maLoai,xs:string,1,1,nillable ,Mã - 01:Tên đơn vị phụ thuộc khác tỉnh với nơi NNT đóng trụ sở chính. 02:Tên địa điểm kinh doanh khác tỉnh với nơi NNT đóng trụ sở chính. 03:Nơi không có đơn vị phụ thuộc/địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct08,xs:string,1,1,nillable ,Chỉ tiêu
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct09,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ma_xa,xs:string,1,1,nillable ,Xã/ phường/ đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ten_xa,xs:string,1,1,nillable ,Xã/ phường/ đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct11_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct11_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct12_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct12_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct13,xs:long,1,1,nillable ,Doanh thu bán vé thực tế theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct14,xs:decimal,1,1,nillable ,Tỷ lệ doanh thu bán vé thực tế theo từng tỉnh (%) [14]=[13]/ [06]x100%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/ct15,xs:nonNegativeInteger,1,1,nillable ,Số thuế GTGT phải nộp cho từng tỉnh [15]=[40]x[14]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/NoiDungBangPhanBo/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/cong_ct16,[complex],1,unbounded,nillable ,Cộng theo từng tỉnh .....
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/cong_ct16/ct16,xs:nonNegativeInteger,1,1,nillable ,Số thuế GTGT phải nộp cho từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/cong_ct16/ct16_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/cong_ct16/ct16_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/cong_ct16/@id,,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/ct17,xs:nonNegativeInteger,1,1,nillable ,Cộng các tỉnh khác nơi NNT đóng trụ sở chính [17]=∑[16]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_3_GTGT/ct18,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp cho nơi NNT đóng trụ sở chính ([18]=chỉ tiêu [40]-[17])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/ct10a_csxs,xs:boolean,1,1,nillable ,"Đơn vị phụ thuộc, địa điểm kinh doanh là cơ sở sản xuất."
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/ct10a_dvvt,xs:boolean,1,1,nillable ,Đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau.
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/ct06,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp của cơ sở sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/ct07,xs:nonNegativeInteger,1,1,nillable ,Tổng doanh thu chưa có thuế giá trị gia tăng của sản phẩm sản xuất ra
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc,[complex],1,1,nillable ,Đơn vị phụ thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc,[complex],1,unbounded,nillable ,Đơn vị phụ thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct09,xs:string,1,1,nillable ,Chỉ tiêu
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct10,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ma_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ten_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct12_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct12_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct13_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct13_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct14,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 5%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct15,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 10%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct16,xs:long,1,1,nillable ,Doanh thu .. Tổng [16]=[14]+[15]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct17,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/ct21,xs:nonNegativeInteger,1,1,nillable ,[21]=([06]x([16]/[07])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DonViPhuThuoc/CTietDonViPhuThuoc/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh,[complex],1,1,nillable ,Địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh,[complex],1,unbounded,nillable ,Địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct09,xs:string,1,1,nillable ,Chỉ tiêu
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct10,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ma_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ten_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct12_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct12_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct13_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct13_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct14,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 5%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct15,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 10%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct16,xs:long,1,1,nillable ,Doanh thu .. Tổng [16]=[14]+[15]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct17,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct21,xs:nonNegativeInteger,1,1,nillable ,[21]=([06]x([16]/[07])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18,[complex],1,unbounded,nillable ,Cộng theo từng tỉnh .....
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18/ct18,xs:nonNegativeInteger,1,1,nillable ,Tổng cột [17] theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18/ct22,xs:nonNegativeInteger,1,1,nillable ,Tổng cột [21] theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18/ct18_tinh_ma,xs:string,1,1,nillable ,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18/ct18_tinh_ten,xs:string,1,1,nillable ,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/cong_ct18/@id,,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/CongCacTinh,[complex],1,1,nillable ,Cộng các tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/CongCacTinh/ct19,xs:nonNegativeInteger,1,1,nillable ,[19]=∑[18]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/CongCacTinh/ct23,xs:nonNegativeInteger,1,1,nillable ,[23]=∑[22]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/SoThuePhaiNop,[complex],1,1,nillable ,Số thuế phải nộp cho nơi NNT đóng trụ sở chính ([20]=[06]-[19] hoặc [24]=[06]-[23])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/SoThuePhaiNop/ct20,xs:nonNegativeInteger,1,1,nillable ,[20]=[06]-[19]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_CSSX/SoThuePhaiNop/ct24,xs:nonNegativeInteger,1,1,nillable ,[24]=[06]-[23]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/ct10a_csxs,xs:boolean,1,1,nillable ,"Đơn vị phụ thuộc, địa điểm kinh doanh là cơ sở sản xuất."
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/ct10a_dvvt,xs:boolean,1,1,nillable ,Đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau.
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/ct06,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp của cơ sở sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/ct07,xs:nonNegativeInteger,1,1,nillable ,Tổng doanh thu chưa có thuế giá trị gia tăng của sản phẩm sản xuất ra
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc,[complex],1,1,nillable ,Đơn vị phụ thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc,[complex],1,unbounded,nillable ,Đơn vị phụ thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct09,xs:string,1,1,nillable ,Chỉ tiêu
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct10,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ma_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ten_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct12_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct12_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct13_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct13_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct14,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 5%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct15,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 10%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct16,xs:long,1,1,nillable ,Doanh thu .. Tổng [16]=[14]+[15]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct17,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/ct21,xs:nonNegativeInteger,1,1,nillable ,[21]=([06]x([16]/[07])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DonViPhuThuoc/CTietDonViPhuThuoc/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh,[complex],1,1,nillable ,Địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh,[complex],1,unbounded,nillable ,Địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct09,xs:string,1,1,nillable ,Chỉ tiêu
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct10,xs:string,1,1,nillable ,Mã số thuế/Mã địa điểm kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ma_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ten_xa,xs:string,1,1,nillable ,Xã/ Phường/ Đặc khu - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct12_tinh_ma,xs:string,1,1,nillable ,Tỉnh/ thành phố - Mã
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct12_tinh_ten,xs:string,1,1,nillable ,Tỉnh/ thành phố - Tên
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct13_cqt_ma,xs:string,1,1,nillable ,Mã cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct13_cqt_ten,xs:string,1,1,nillable ,Tên cơ quan thuế quản lý địa bàn nhận phân bổ
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct14,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 5%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct15,xs:long,1,1,nillable ,Hàng hóa chịu thuế suất 10%
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct16,xs:long,1,1,nillable ,Doanh thu .. Tổng [16]=[14]+[15]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct17,xs:nonNegativeInteger,1,1,nillable ,Số thuế phải nộp cho từng tỉnh nơi có cơ sở sản xuất/đơn vị phụ thuộc kinh doanh dịch vụ viễn thông cước trả sau
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/ct21,xs:nonNegativeInteger,1,1,nillable ,[21]=([06]x([16]/[07])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/DiaDiemKinhDoanh/CTietDiaDiemKinhDoanh/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18,[complex],1,unbounded,nillable ,Cộng theo từng tỉnh .....
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18/ct18,xs:nonNegativeInteger,1,1,nillable ,Tổng cột [17] theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18/ct22,xs:nonNegativeInteger,1,1,nillable ,Tổng cột [21] theo từng tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18/ct18_tinh_ma,xs:string,1,1,nillable ,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18/ct18_tinh_ten,xs:string,1,1,nillable ,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/cong_ct18/@id,,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/CongCacTinh,[complex],1,1,nillable ,Cộng các tỉnh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/CongCacTinh/ct19,xs:nonNegativeInteger,1,1,nillable ,[19]=∑[18]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/CongCacTinh/ct23,xs:nonNegativeInteger,1,1,nillable ,[23]=∑[22]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/SoThuePhaiNop,[complex],1,1,nillable ,Số thuế phải nộp cho nơi NNT đóng trụ sở chính ([20]=[06]-[19] hoặc [24]=[06]-[23])
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/SoThuePhaiNop/ct20,xs:nonNegativeInteger,1,1,nillable ,[20]=[06]-[19]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_6_GTGT_DVVT/SoThuePhaiNop/ct24,xs:nonNegativeInteger,1,1,nillable ,[24]=[06]-[23]
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ct08a,xs:nonNegativeInteger,1,1,nillable ,"[08a] Tổng Giá trị hàng hóa, dịch vụ mua vào phân bổ (chưa có thuế GTGT)"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ct08b,xs:nonNegativeInteger,1,1,nillable ,"- [08b] Thuế GTGT đầu vào của hàng hoá, dịch vụ phân bổ cho các chi nhánh và trụ sở chính"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh,[complex],1,1,nillable ,Trụ sở chính
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct10,xs:string,1,1,nillable ,Tên chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct11,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,nillable ,MST chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct12,xs:nonNegativeInteger,1,1,nillable ,Tổng doanh thu để xác định tỷ lệ phân bổ (không bao gồm doanh thu không chịu thuế)
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct13,xs:nonNegativeInteger,1,1,nillable ,"Giá trị hàng hóa, dịch vụ mua vào phân bổ (chưa có thuế GTGT)"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct14,xs:nonNegativeInteger,1,1,nillable ,"Thuế GTGT đầu vào của hàng hoá, dịch vụ phân bổ cho các chi nhánh và trụ sở chính"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/TruSoChinh/ct15,xs:string,1,1,nillable ,Ghi chú
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh,[complex],1,1,nillable ,Chi nhánh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh,[complex],1,unbounded,nillable ,Chi nhánh
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct10,xs:string,1,1,nillable ,Tên chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct11,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,nillable ,MST chi nhánh và trụ sở chính cơ sở kinh doanh dịch vụ viễn thông
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct12,xs:nonNegativeInteger,1,1,nillable ,Tổng doanh thu để xác định tỷ lệ phân bổ (không bao gồm doanh thu không chịu thuế)
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct13,xs:nonNegativeInteger,1,1,nillable ,"Giá trị hàng hóa, dịch vụ mua vào phân bổ (chưa có thuế GTGT)"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct14,xs:nonNegativeInteger,1,1,nillable ,"Thuế GTGT đầu vào của hàng hoá, dịch vụ phân bổ cho các chi nhánh và trụ sở chính"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/ct15,xs:string,1,1,nillable ,Ghi chú
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ChiNhanh/ChiTietChiNhanh/@id,xs:string,required,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ct16,xs:nonNegativeInteger,1,1,nillable ,Cộng Tổng doanh thu để xác định tỷ lệ phân bổ (không bao gồm doanh thu không chịu thuế)
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ct17,xs:nonNegativeInteger,1,1,nillable ,"Cộng Giá trị hàng hóa, dịch vụ mua vào phân bổ (chưa có thuế GTGT)"
+/HSoThueDTu/HSoKhaiThue/PLuc/Pluc_01_7_GTGT/ct18,xs:nonNegativeInteger,1,1,nillable ,"Thuế GTGT đầu vào của hàng hoá, dịch vụ phân bổ cho các chi nhánh và trụ sở chính"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy,[complex],0,1,,"I.Hàng hóa, dịch vụ mua vào trong kỳ được áp dụng mức thuế suất thuế giá trị gia tăng 8%"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/BangKeTenHHDV,[complex],1,unbounded,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/BangKeTenHHDV/tenHHDVMuaVao,xs:string,1,1,nillable ,"Tên hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/BangKeTenHHDV/giaTriHHDVMuaVao,xs:long,1,1,nillable ,"Giá trị hàng hóa, dịch vụ mua vào chưa có thuế GTGT được khấu trừ trong kỳ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/BangKeTenHHDV/thueGTGTHHDV,xs:long,1,1,nillable ,"Thuế GTGT của hàng hóa, dịch vụ mua vào được khấu trừ trong kỳ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/BangKeTenHHDV/@ID,xs:string,,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/tongCongGiaTriHHDVMuaVao,xs:long,1,1,nillable ,"Tổng cộng Giá trị hàng hóa, dịch vụ mua vào chưa có thuế GTGT được khấu trừ trong kỳ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_MuaVaoTrongKy/tongCongThueGTGTHHDV,xs:long,1,1,nillable ,"Tổng cộng Thuế GTGT của hàng hóa, dịch vụ mua vào được khấu trừ trong kỳ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy,[complex],0,1,,"II. Hàng hóa, dịch vụ bán ra trong kỳ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV,[complex],1,unbounded,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/tenHHDV,xs:string,1,1,nillable ,"Tên hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/giaTriHHDV,xs:long,1,1,nillable ,"Giá trị hàng hóa, dịch vụ chưa có thuế GTGT/ Doanh thu hàng hoá, dịch vụ chịu thuế"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/thueSuatTheoQuyDinh,xs:long,1,1,nillable ,Thuế suất/Tỷ lệ tính thuế GTGT theo quy định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/thueSuatSauGiam,xs:decimal,1,1,nillable ,Thuế suất/Tỷ lệ tính thuế GTGT sau giảm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/thueGTGTDuocGiam,xs:long,1,1,nillable ,Thuế GTGT được giảm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/BangKeTenHHDV/@ID,xs:string,,,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/tongCongGiaTriHHDV,xs:long,1,1,nillable ,"Tổng cộng Giá trị hàng hóa, dịch vụ chưa có thuế GTGT/Doanh thu hàng hoá, dịch vụ chịu thuế"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/HH_DV_BanRaTrongKy/tongCongThueGTGTDuocGiam,xs:long,1,1,nillable ,Tổng cộng Thuế GTGT được giảm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/ChenhLech,[complex],1,1,,"III. Chênh lệch thuế GTGT của hàng hoá, dịch vụ bán ra và mua vào trong kỳ được áp dụng mức thuế suất thuế giá trị gia tăng 8%"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_NQ142_GTGT/ChenhLech/ct9,xs:long,1,1,nillable ,[09] = [08] - [06]
+/HSoThueDTu/HSoKhaiThue/@id,xs:ID,optional,,,

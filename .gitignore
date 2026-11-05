@@ -1,0 +1,27 @@
+# ===== Thu vien / build =====
+node_modules/
+npm-debug.log*
+
+# ===== Bi mat & cau hinh rieng (KHONG dua len GitHub) =====
+.env
+.env.*
+!.env.example
+config/doanh-nghiep.json
+
+# ===== Du lieu sinh ra khi chay =====
+data/
+output/
+*.log
+
+# ===== File mau tham khao dung luong lon (bo dong nao neu muon dua len) =====
+mẫu excel upload/
+mẫu xml/
+Báo cáo tài chính/
+
+# ===== He dieu hanh / editor =====
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+~$*

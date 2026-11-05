@@ -1,0 +1,1262 @@
+﻿path,type,minOccurs,maxOccurs,flags,documentation
+/HSoThueDTu,[complex],1,1,,Phần tử gốc của tệp hồ sơ điện tử
+/HSoThueDTu/HSoKhaiThue,[complex],1,1,,Toàn bộ dữ liệu của hồ sơ điện tử
+/HSoThueDTu/HSoKhaiThue/TTinChung,[complex],1,1,,Thông tin chung
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu,[complex],1,1,,Thông tin dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/maDVu,xs:string,1,1,,Mã dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/tenDVu,xs:token,1,1,,Tên dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/pbanDVu,xs:string,1,1,,Phiên bản dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinDVu/ttinNhaCCapDVu,xs:string,1,1,,Thông tin nhà cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue,[complex],1,1,,Thông tin tờ khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue,[complex],1,1,,Tờ khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/maTKhai,xs:string,1,1,,Mã tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/tenTKhai,xs:token,1,1,,Tên tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/moTaBMau,xs:string,1,1,,Mô tả biểu mẫu
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/pbanTKhaiXML,xs:string,1,1,,Phiên bản tờ khai XML
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/loaiTKhai,xs:string{pattern=C|B|T},1,1,,Loại tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/soLan,xs:nonNegativeInteger,1,1,,Số lần
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue,[complex],1,1,,Kỳ kê khai thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kieuKy,xs:string{pattern=D|M|Y|K|Q|LD|DK},1,1,,Kiểu kỳ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhai,xs:string,1,1,,"Quý: Q/YYYY, ngày: DD/MM/YYYY, tháng: MM/YYYY, năm: YYYY, Kỳ: K/YYYY"
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiTuNgay,xs:string,1,1,,Định dạng DD/MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiDenNgay,xs:string,1,1,,Định dạng DD/MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiTuThang,xs:string,1,1,,Định dạng MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/KyKKhaiThue/kyKKhaiDenThang,xs:string,1,1,,Định dạng MM/YYYY
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/maCQTNoiNop,xs:string,1,1,,Mã CQT nơi nộp
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/tenCQTNoiNop,xs:token,1,1,,Tên CQT nơi nộp
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/ngayLapTKhai,xs:string,1,1,,Ngày lập tờ khai
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan,[complex],0,1,,Gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan/maLyDoGiaHan,xs:string,1,1,,Mã lý do gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/GiaHan/lyDoGiaHan,xs:string,1,1,,Tên lý do gia hạn
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/nguoiKy,xs:string,1,1,nillable ,Người ký
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/ngayKy,xs:date,1,1,,Ngày ký
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/TKhaiThue/nganhNgheKD,xs:string,1,1,,Ngành nghề kinh doanh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT,[complex],1,1,,Người nộp thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/mst,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,,Mã số thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenNNT,xs:token,1,1,,Tên NNT
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/dchiNNT,xs:token,1,1,,Địa chỉ NNT
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/phuongXa,xs:string,1,1,,Phường/ xã
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/maHuyenNNT,xs:string,1,1,nillable ,Mã huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenHuyenNNT,xs:string,1,1,nillable ,Tên huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/maTinhNNT,xs:string,1,1,,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/tenTinhNNT,xs:string,1,1,,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/dthoaiNNT,xs:string,1,1,,Điện thoại
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/faxNNT,xs:string,1,1,,Fax
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/NNT/emailNNT,xs:string,1,1,,Email
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue,[complex],0,1,,Đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/mstDLyThue,TINType(xs:string{pattern=([0-9]{10}(-[0-9]{3})?)|([0-9]{12})}),1,1,,Mã số thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenDLyThue,xs:token,1,1,,Tên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/dchiDLyThue,xs:token,1,1,,Địa chỉ
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/maHuyenDLyThue,xs:string,1,1,nillable ,Mã huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenHuyenDLyThue,xs:string,1,1,nillable ,Tên huyện
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/maTinhDLyThue,xs:string,1,1,,Mã tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/tenTinhDLyThue,xs:string,1,1,,Tên tỉnh
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/dthoaiDLyThue,xs:string,1,1,,Điện thoại
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/faxDLyThue,xs:string,1,1,,Fax
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/emailDLyThue,xs:string,1,1,,Email
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/soHDongDLyThue,xs:string,1,1,,Số hợp đồng đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/ngayKyHDDLyThue,xs:date,1,1,,Ngày ký hợp đồng
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy,[complex],1,1,,Nhân viên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy/tenNVienDLyThue,xs:token,1,1,,Tên nhân viên đại lý thuế
+/HSoThueDTu/HSoKhaiThue/TTinChung/TTinTKhaiThue/DLyThue/NVienDLy/cchiHNghe,xs:string,1,1,,Chứng chỉ hành nghề
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh,[complex],1,1,,Chỉ tiêu tờ khai chính
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/bctcDaKiemToan,xs:boolean,1,1,nillable ,Báo cáo tài chính đã được kiểm toán
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/maYKienKToan,xs:string,1,1,nillable ,Mã ý kiến kiểm toán
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/tenYKienKToan,xs:string,1,1,nillable ,Tên ý kiến kiểm toán
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh,[complex],1,1,,Thuyết minh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct100,xs:string,1,1,nillable ,A - TÀI SẢN NGẮN HẠN (100=110+120+130+140+150)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct110,xs:string,1,1,nillable ,I. Tiền và các khoản tương đương tiền
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct120,xs:string,1,1,nillable ,II. Đầu tư tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct121,xs:string,1,1,nillable ,1. Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct122,xs:string,1,1,nillable ,2. Dự phòng giảm giá chứng khoán kinh doanh (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct123,xs:string,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct130,xs:string,1,1,nillable ,III. Các khoản phải thu ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct131,xs:string,1,1,nillable ,1. Phải thu ngắn hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct132,xs:string,1,1,nillable ,2. Trả trước cho người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct133,xs:string,1,1,nillable ,3. Phải thu ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct134,xs:string,1,1,nillable ,4. Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct135,xs:string,1,1,nillable ,5. Dự phòng phải thu ngắn hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct140,xs:string,1,1,nillable ,IV. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct141,xs:string,1,1,nillable ,1. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct142,xs:string,1,1,nillable ,2. Dự phòng giảm giá hàng tồn kho (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct150,xs:string,1,1,nillable ,V. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct151,xs:string,1,1,nillable ,1. Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct152,xs:string,1,1,nillable ,2. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct200,xs:string,1,1,nillable ,B - TÀI SẢN DÀI HẠN (200=210+220+230+240+250+260)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct210,xs:string,1,1,nillable ,I- Các khoản phải thu dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct211,xs:string,1,1,nillable ,1. Phải thu dài hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct212,xs:string,1,1,nillable ,2. Trả trước cho người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct213,xs:string,1,1,nillable ,3. Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct214,xs:string,1,1,nillable ,4. Phải thu dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct215,xs:string,1,1,nillable ,5. Dự phòng phải thu dài hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct220,xs:string,1,1,nillable ,II. Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct221,xs:string,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct222,xs:string,1,1,nillable ,Giá trị hao mòn lũy kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct230,xs:string,1,1,nillable ,III. Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct231,xs:string,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct232,xs:string,1,1,nillable ,Giá trị hao mòn luỹ kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct240,xs:string,1,1,nillable ,IV. Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct250,xs:string,1,1,nillable ,V. Đầu tư tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct251,xs:string,1,1,nillable ,1. Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct252,xs:string,1,1,nillable ,2. Dự phòng tổn thất đầu tư vào đơn vị khác (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct253,xs:string,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct260,xs:string,1,1,nillable ,V. Tài sản dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct300,xs:string,1,1,nillable ,TỔNG CỘNG TÀI SẢN (300=100+200)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct400,xs:string,1,1,nillable ,C- NỢ PHẢI TRẢ (400=410+420)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct410,xs:string,1,1,nillable ,I. Nợ ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct411,xs:string,1,1,nillable ,1. Phải trả người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct412,xs:string,1,1,nillable ,2. Người mua trả tiền trước ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct413,xs:string,1,1,nillable ,3. Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct414,xs:string,1,1,nillable ,4. Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct415,xs:string,1,1,nillable ,5. Phải trả ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct416,xs:string,1,1,nillable ,6. Vay và nợ thuê tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct417,xs:string,1,1,nillable ,7. Dự phòng phải trả ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct418,xs:string,1,1,nillable ,"8. Quỹ khen thưởng, phúc lợi"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct420,xs:string,1,1,nillable ,II. Nợ dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct421,xs:string,1,1,nillable ,1. Phải trả người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct422,xs:string,1,1,nillable ,2. Người mua trả tiền trước dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct423,xs:string,1,1,nillable ,3. Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct424,xs:string,1,1,nillable ,4. Phải trả dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct425,xs:string,1,1,nillable ,5. Vay và nợ thuê tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct426,xs:string,1,1,nillable ,6. Dự phòng phải trả dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct427,xs:string,1,1,nillable ,7. Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct500,xs:string,1,1,nillable ,D - VỐN CHỦ SỞ HỮU (500=511+512+513+514+515+516+517)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct511,xs:string,1,1,nillable ,1. Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct512,xs:string,1,1,nillable ,2. Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct513,xs:string,1,1,nillable ,3. Vốn khác của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct514,xs:string,1,1,nillable ,4. Cổ phiếu quỹ (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct515,xs:string,1,1,nillable ,5. Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct516,xs:string,1,1,nillable ,6. Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct517,xs:string,1,1,nillable ,7. Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ThuyetMinh/ct600,xs:string,1,1,nillable ,TỔNG CỘNG NGUỒN VỐN (600=400+500)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam,[complex],1,1,,Số cuối năm
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct100,xs:long,1,1,nillable ,A - TÀI SẢN NGẮN HẠN (100=110+120+130+140+150)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct110,xs:long,1,1,nillable ,I. Tiền và các khoản tương đương tiền
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct120,xs:long,1,1,nillable ,II. Đầu tư tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct121,xs:long,1,1,nillable ,1. Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct122,xs:long,1,1,nillable ,2. Dự phòng giảm giá chứng khoán kinh doanh (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct123,xs:long,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct130,xs:long,1,1,nillable ,III. Các khoản phải thu ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct131,xs:long,1,1,nillable ,1. Phải thu ngắn hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct132,xs:long,1,1,nillable ,2. Trả trước cho người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct133,xs:long,1,1,nillable ,3. Phải thu ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct134,xs:long,1,1,nillable ,4. Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct135,xs:long,1,1,nillable ,5. Dự phòng phải thu ngắn hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct140,xs:long,1,1,nillable ,IV. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct141,xs:long,1,1,nillable ,1. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct142,xs:long,1,1,nillable ,2. Dự phòng giảm giá hàng tồn kho (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct150,xs:long,1,1,nillable ,V. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct151,xs:long,1,1,nillable ,1. Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct152,xs:long,1,1,nillable ,2. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct200,xs:long,1,1,nillable ,B - TÀI SẢN DÀI HẠN (200=210+220+230+240+250+260)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct210,xs:long,1,1,nillable ,I- Các khoản phải thu dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct211,xs:long,1,1,nillable ,1. Phải thu dài hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct212,xs:long,1,1,nillable ,2. Trả trước cho người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct213,xs:long,1,1,nillable ,3. Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct214,xs:long,1,1,nillable ,4. Phải thu dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct215,xs:long,1,1,nillable ,5. Dự phòng phải thu dài hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct220,xs:long,1,1,nillable ,II. Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct221,xs:long,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct222,xs:long,1,1,nillable ,Giá trị hao mòn lũy kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct230,xs:long,1,1,nillable ,III. Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct231,xs:long,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct232,xs:long,1,1,nillable ,Giá trị hao mòn luỹ kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct240,xs:long,1,1,nillable ,IV. Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct250,xs:long,1,1,nillable ,V. Đầu tư tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct251,xs:long,1,1,nillable ,1. Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct252,xs:long,1,1,nillable ,2. Dự phòng tổn thất đầu tư vào đơn vị khác (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct253,xs:long,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct260,xs:long,1,1,nillable ,V. Tài sản dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct300,xs:long,1,1,nillable ,TỔNG CỘNG TÀI SẢN (300=100+200)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct400,xs:long,1,1,nillable ,C- NỢ PHẢI TRẢ (400=410+420)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct410,xs:long,1,1,nillable ,I. Nợ ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct411,xs:long,1,1,nillable ,1. Phải trả người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct412,xs:long,1,1,nillable ,2. Người mua trả tiền trước ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct413,xs:long,1,1,nillable ,3. Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct414,xs:long,1,1,nillable ,4. Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct415,xs:long,1,1,nillable ,5. Phải trả ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct416,xs:long,1,1,nillable ,6. Vay và nợ thuê tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct417,xs:long,1,1,nillable ,7. Dự phòng phải trả ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct418,xs:long,1,1,nillable ,"8. Quỹ khen thưởng, phúc lợi"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct420,xs:long,1,1,nillable ,II. Nợ dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct421,xs:long,1,1,nillable ,1. Phải trả người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct422,xs:long,1,1,nillable ,2. Người mua trả tiền trước dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct423,xs:long,1,1,nillable ,3. Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct424,xs:long,1,1,nillable ,4. Phải trả dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct425,xs:long,1,1,nillable ,5. Vay và nợ thuê tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct426,xs:long,1,1,nillable ,6. Dự phòng phải trả dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct427,xs:long,1,1,nillable ,7. Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct500,xs:long,1,1,nillable ,D - VỐN CHỦ SỞ HỮU (500=511+512+513+514+515+516+517)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct511,xs:long,1,1,nillable ,1. Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct512,xs:long,1,1,nillable ,2. Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct513,xs:long,1,1,nillable ,3. Vốn khác của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct514,xs:long,1,1,nillable ,4. Cổ phiếu quỹ (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct515,xs:long,1,1,nillable ,5. Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct516,xs:long,1,1,nillable ,6. Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct517,xs:long,1,1,nillable ,7. Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoCuoiNam/ct600,xs:long,1,1,nillable ,TỔNG CỘNG NGUỒN VỐN (600=400+500)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam,[complex],1,1,,Số đầu năm
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct100,xs:long,1,1,nillable ,A - TÀI SẢN NGẮN HẠN (100=110+120+130+140+150)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct110,xs:long,1,1,nillable ,I. Tiền và các khoản tương đương tiền
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct120,xs:long,1,1,nillable ,II. Đầu tư tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct121,xs:long,1,1,nillable ,1. Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct122,xs:long,1,1,nillable ,2. Dự phòng giảm giá chứng khoán kinh doanh (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct123,xs:long,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct130,xs:long,1,1,nillable ,III. Các khoản phải thu ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct131,xs:long,1,1,nillable ,1. Phải thu ngắn hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct132,xs:long,1,1,nillable ,2. Trả trước cho người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct133,xs:long,1,1,nillable ,3. Phải thu ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct134,xs:long,1,1,nillable ,4. Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct135,xs:long,1,1,nillable ,5. Dự phòng phải thu ngắn hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct140,xs:long,1,1,nillable ,IV. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct141,xs:long,1,1,nillable ,1. Hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct142,xs:long,1,1,nillable ,2. Dự phòng giảm giá hàng tồn kho (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct150,xs:long,1,1,nillable ,V. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct151,xs:long,1,1,nillable ,1. Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct152,xs:long,1,1,nillable ,2. Tài sản ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct200,xs:long,1,1,nillable ,B - TÀI SẢN DÀI HẠN (200=210+220+230+240+250+260)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct210,xs:long,1,1,nillable ,I- Các khoản phải thu dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct211,xs:long,1,1,nillable ,1. Phải thu dài hạn của khách hàng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct212,xs:long,1,1,nillable ,2. Trả trước cho người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct213,xs:long,1,1,nillable ,3. Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct214,xs:long,1,1,nillable ,4. Phải thu dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct215,xs:long,1,1,nillable ,5. Dự phòng phải thu dài hạn khó đòi (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct220,xs:long,1,1,nillable ,II. Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct221,xs:long,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct222,xs:long,1,1,nillable ,Giá trị hao mòn lũy kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct230,xs:long,1,1,nillable ,III. Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct231,xs:long,1,1,nillable ,Nguyên giá
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct232,xs:long,1,1,nillable ,Giá trị hao mòn luỹ kế (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct240,xs:long,1,1,nillable ,IV. Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct250,xs:long,1,1,nillable ,V. Đầu tư tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct251,xs:long,1,1,nillable ,1. Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct252,xs:long,1,1,nillable ,2. Dự phòng tổn thất đầu tư vào đơn vị khác (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct253,xs:long,1,1,nillable ,3. Đầu tư nắm giữ đến ngày đáo hạn dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct260,xs:long,1,1,nillable ,V. Tài sản dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct300,xs:long,1,1,nillable ,TỔNG CỘNG TÀI SẢN (300=100+200)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct400,xs:long,1,1,nillable ,C- NỢ PHẢI TRẢ (400=410+420)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct410,xs:long,1,1,nillable ,I. Nợ ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct411,xs:long,1,1,nillable ,1. Phải trả người bán ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct412,xs:long,1,1,nillable ,2. Người mua trả tiền trước ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct413,xs:long,1,1,nillable ,3. Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct414,xs:long,1,1,nillable ,4. Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct415,xs:long,1,1,nillable ,5. Phải trả ngắn hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct416,xs:long,1,1,nillable ,6. Vay và nợ thuê tài chính ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct417,xs:long,1,1,nillable ,7. Dự phòng phải trả ngắn hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct418,xs:long,1,1,nillable ,"8. Quỹ khen thưởng, phúc lợi"
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct420,xs:long,1,1,nillable ,II. Nợ dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct421,xs:long,1,1,nillable ,1. Phải trả người bán dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct422,xs:long,1,1,nillable ,2. Người mua trả tiền trước dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct423,xs:long,1,1,nillable ,3. Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct424,xs:long,1,1,nillable ,4. Phải trả dài hạn khác
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct425,xs:long,1,1,nillable ,5. Vay và nợ thuê tài chính dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct426,xs:long,1,1,nillable ,6. Dự phòng phải trả dài hạn
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct427,xs:long,1,1,nillable ,7. Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct500,xs:long,1,1,nillable ,D - VỐN CHỦ SỞ HỮU (500=511+512+513+514+515+516+517)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct511,xs:long,1,1,nillable ,1. Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct512,xs:long,1,1,nillable ,2. Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct513,xs:long,1,1,nillable ,3. Vốn khác của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct514,xs:long,1,1,nillable ,4. Cổ phiếu quỹ (*)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct515,xs:long,1,1,nillable ,5. Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct516,xs:long,1,1,nillable ,6. Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct517,xs:long,1,1,nillable ,7. Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/SoDauNam/ct600,xs:long,1,1,nillable ,TỔNG CỘNG NGUỒN VỐN (600=400+500)
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/nguoiLapBieu,xs:string,1,1,nillable ,Người lập biểu
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/keToanTruong,xs:string,1,1,nillable ,Kế toán trưởng
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/ngayLap,xs:date,1,1,nillable ,Lập ngày
+/HSoThueDTu/HSoKhaiThue/CTieuTKhaiChinh/nguoiDaiDienTheoPhapLuat,xs:string,1,1,nillable ,Người đại diện theo pháp luật
+/HSoThueDTu/HSoKhaiThue/PLuc,[complex] type=PLucType,0,1,,Phụ lục
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh,[complex],1,1,,Thuyết minh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct01,xs:string,1,1,nillable ,1. Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct02,xs:string,1,1,nillable ,2. Các khoản giảm trừ doanh thu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct10,xs:string,1,1,nillable ,3. Doanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 - 02)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct11,xs:string,1,1,nillable ,4. Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct20,xs:string,1,1,nillable ,5. Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (20 = 10 - 11)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct21,xs:string,1,1,nillable ,6. Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct22,xs:string,1,1,nillable ,7. Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct23,xs:string,1,1,nillable ,- Trong đó: Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct24,xs:string,1,1,nillable ,8.Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct30,xs:string,1,1,nillable ,9. Lợi nhuận thuần từ hoạt động kinh doanh (30 = 20 + 21 - 22 - 24)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct31,xs:string,1,1,nillable ,10. Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct32,xs:string,1,1,nillable ,11. Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct40,xs:string,1,1,nillable ,12. Lợi nhuận khác (40 = 31 - 32)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct50,xs:string,1,1,nillable ,13. Tổng lợi nhuận kế toán trước thuế (50 = 30 + 40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct51,xs:string,1,1,nillable ,14. Chi phí thuế TNDN
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/ThuyetMinh/ct60,xs:string,1,1,nillable ,15. Lợi nhuận sau thuế thu nhập doanh nghiệp (60 = 50 - 51 )
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay,[complex],1,1,,Năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct01,xs:long,1,1,nillable ,1. Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct02,xs:long,1,1,nillable ,2. Các khoản giảm trừ doanh thu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct10,xs:long,1,1,nillable ,3. Doanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 - 02)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct11,xs:long,1,1,nillable ,4. Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct20,xs:long,1,1,nillable ,5. Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (20 = 10 - 11)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct21,xs:long,1,1,nillable ,6. Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct22,xs:long,1,1,nillable ,7. Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct23,xs:long,1,1,nillable ,- Trong đó: Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct24,xs:long,1,1,nillable ,8.Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct30,xs:long,1,1,nillable ,9. Lợi nhuận thuần từ hoạt động kinh doanh (30 = 20 + 21 - 22 - 24)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct31,xs:long,1,1,nillable ,10. Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct32,xs:long,1,1,nillable ,11. Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct40,xs:long,1,1,nillable ,12. Lợi nhuận khác (40 = 31 - 32)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct50,xs:long,1,1,nillable ,13. Tổng lợi nhuận kế toán trước thuế (50 = 30 + 40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct51,xs:long,1,1,nillable ,14. Chi phí thuế TNDN
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamNay/ct60,xs:long,1,1,nillable ,15. Lợi nhuận sau thuế thu nhập doanh nghiệp (60 = 50 - 51 )
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc,[complex],1,1,,Năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct01,xs:long,1,1,nillable ,1. Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct02,xs:long,1,1,nillable ,2. Các khoản giảm trừ doanh thu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct10,xs:long,1,1,nillable ,3. Doanh thu thuần về bán hàng và cung cấp dịch vụ (10 = 01 - 02)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct11,xs:long,1,1,nillable ,4. Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct20,xs:long,1,1,nillable ,5. Lợi nhuận gộp về bán hàng và cung cấp dịch vụ (20 = 10 - 11)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct21,xs:long,1,1,nillable ,6. Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct22,xs:long,1,1,nillable ,7. Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct23,xs:long,1,1,nillable ,- Trong đó: Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct24,xs:long,1,1,nillable ,8.Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct30,xs:long,1,1,nillable ,9. Lợi nhuận thuần từ hoạt động kinh doanh (30 = 20 + 21 - 22 - 24)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct31,xs:long,1,1,nillable ,10. Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct32,xs:long,1,1,nillable ,11. Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct40,xs:long,1,1,nillable ,12. Lợi nhuận khác (40 = 31 - 32)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct50,xs:long,1,1,nillable ,13. Tổng lợi nhuận kế toán trước thuế (50 = 30 + 40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct51,xs:long,1,1,nillable ,14. Chi phí thuế TNDN
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_KQHDSXKD/NamTruoc/ct60,xs:long,1,1,nillable ,15. Lợi nhuận sau thuế thu nhập doanh nghiệp (60 = 50 - 51 )
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh,[complex],1,1,,Thuyết minh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct01,xs:string,1,1,nillable ,"1.Tiền thu từ bán hàng, cung cấp dịch vụ và doanh thu khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct02,xs:string,1,1,nillable ,2.Tiền chi trả cho người cung cấp hàng hóa và dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct03,xs:string,1,1,nillable ,3.Tiền chi trả cho người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct04,xs:string,1,1,nillable ,4. Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct05,xs:string,1,1,nillable ,5.Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct06,xs:string,1,1,nillable ,6.Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct07,xs:string,1,1,nillable ,7.Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct20,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct21,xs:string,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct22,xs:string,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct23,xs:string,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct24,xs:string,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct25,xs:string,1,1,nillable ,"5. Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct30,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct31,xs:string,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct32,xs:string,1,1,nillable ,"2. Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct33,xs:string,1,1,nillable ,3. Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct34,xs:string,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct35,xs:string,1,1,nillable ,"5. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct40,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct50,xs:string,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct60,xs:string,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct61,xs:string,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/ThuyetMinh/ct70,xs:string,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay,[complex],1,1,,Năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct01,xs:long,1,1,nillable ,"1.Tiền thu từ bán hàng, cung cấp dịch vụ và doanh thu khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct02,xs:long,1,1,nillable ,2.Tiền chi trả cho người cung cấp hàng hóa và dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct03,xs:long,1,1,nillable ,3.Tiền chi trả cho người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct04,xs:long,1,1,nillable ,4. Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct05,xs:long,1,1,nillable ,5.Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct06,xs:long,1,1,nillable ,6.Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct07,xs:long,1,1,nillable ,7.Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct20,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct21,xs:long,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct22,xs:long,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct23,xs:long,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct24,xs:long,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct25,xs:long,1,1,nillable ,"5. Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct30,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct31,xs:long,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct32,xs:long,1,1,nillable ,"2. Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct33,xs:long,1,1,nillable ,3. Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct34,xs:long,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct35,xs:long,1,1,nillable ,"5. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct40,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct50,xs:long,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct60,xs:long,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct61,xs:long,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamNay/ct70,xs:long,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc,[complex],1,1,,Năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct01,xs:long,1,1,nillable ,"1.Tiền thu từ bán hàng, cung cấp dịch vụ và doanh thu khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct02,xs:long,1,1,nillable ,2.Tiền chi trả cho người cung cấp hàng hóa và dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct03,xs:long,1,1,nillable ,3.Tiền chi trả cho người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct04,xs:long,1,1,nillable ,4. Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct05,xs:long,1,1,nillable ,5.Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct06,xs:long,1,1,nillable ,6.Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct07,xs:long,1,1,nillable ,7.Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct20,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct21,xs:long,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct22,xs:long,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct23,xs:long,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct24,xs:long,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct25,xs:long,1,1,nillable ,"5. Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct30,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct31,xs:long,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct32,xs:long,1,1,nillable ,"2. Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct33,xs:long,1,1,nillable ,3. Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct34,xs:long,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct35,xs:long,1,1,nillable ,"5. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct40,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct50,xs:long,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct60,xs:long,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct61,xs:long,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTTT/NamTruoc/ct70,xs:long,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh,[complex],1,1,,Thuyết minh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct01,xs:string,1,1,nillable ,1. Lợi nhuận trước thuế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct02,xs:string,1,1,nillable ,Điều chỉnh cho các khoản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct03,xs:string,1,1,nillable ,Khấu hao TSCĐ và BĐSĐT
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct04,xs:string,1,1,nillable ,Các khoản dự phòng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct05,xs:string,1,1,nillable ,"- Lãi, lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct06,xs:string,1,1,nillable ,"Lãi, lỗ từ hoạt động đầu tư"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct07,xs:string,1,1,nillable ,Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct08,xs:string,1,1,nillable ,Các khoản điều chỉnh khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct09,xs:string,1,1,nillable ,3. Lợi nhuận từ hoạt động kinh doanh trước thay đổi vốn lưu động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct10,xs:string,1,1,nillable ,"Tăng, giảm các khoản phải thu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct11,xs:string,1,1,nillable ,"Tăng, giảm hàng tồn kho"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct12,xs:string,1,1,nillable ,"- Tăng, giảm các khoản phải trả (Không kể lãi vay phải trả, thuế thu nhập doanh nghiệp phải nộp)"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct13,xs:string,1,1,nillable ,"Tăng, giảm chi phí trả trước"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct14,xs:string,1,1,nillable ,"Tăng, giảm chứng khoán kinh doanh"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct15,xs:string,1,1,nillable ,Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct16,xs:string,1,1,nillable ,Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct17,xs:string,1,1,nillable ,Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct18,xs:string,1,1,nillable ,Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct20,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct21,xs:string,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct22,xs:string,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct23,xs:string,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct24,xs:string,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct25,xs:string,1,1,nillable ,"5.Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct30,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct31,xs:string,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct32,xs:string,1,1,nillable ,"2.Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct33,xs:string,1,1,nillable ,3.Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct34,xs:string,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ gốc thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct35,xs:string,1,1,nillable ,"6. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct40,xs:string,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct50,xs:string,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct60,xs:string,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct61,xs:string,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/ThuyetMinh/ct70,xs:string,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay,[complex],1,1,,Năm Nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct01,xs:long,1,1,nillable ,1. Lợi nhuận trước thuế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct02,xs:long,1,1,nillable ,Điều chỉnh cho các khoản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct03,xs:long,1,1,nillable ,Khấu hao TSCĐ và BĐSĐT
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct04,xs:long,1,1,nillable ,Các khoản dự phòng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct05,xs:long,1,1,nillable ,"- Lãi, lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct06,xs:long,1,1,nillable ,"Lãi, lỗ từ hoạt động đầu tư"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct07,xs:long,1,1,nillable ,Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct08,xs:long,1,1,nillable ,Các khoản điều chỉnh khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct09,xs:long,1,1,nillable ,3. Lợi nhuận từ hoạt động kinh doanh trước thay đổi vốn lưu động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct10,xs:long,1,1,nillable ,"Tăng, giảm các khoản phải thu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct11,xs:long,1,1,nillable ,"Tăng, giảm hàng tồn kho"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct12,xs:long,1,1,nillable ,"- Tăng, giảm các khoản phải trả (Không kể lãi vay phải trả, thuế thu nhập doanh nghiệp phải nộp)"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct13,xs:long,1,1,nillable ,"Tăng, giảm chi phí trả trước"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct14,xs:long,1,1,nillable ,"Tăng, giảm chứng khoán kinh doanh"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct15,xs:long,1,1,nillable ,Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct16,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct17,xs:long,1,1,nillable ,Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct18,xs:long,1,1,nillable ,Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct20,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct21,xs:long,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct22,xs:long,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct23,xs:long,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct24,xs:long,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct25,xs:long,1,1,nillable ,"5.Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct30,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct31,xs:long,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct32,xs:long,1,1,nillable ,"2.Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct33,xs:long,1,1,nillable ,3.Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct34,xs:long,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ gốc thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct35,xs:long,1,1,nillable ,"6. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct40,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct50,xs:long,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct60,xs:long,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct61,xs:long,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamNay/ct70,xs:long,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc,[complex],1,1,,Năm Trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct01,xs:long,1,1,nillable ,1. Lợi nhuận trước thuế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct02,xs:long,1,1,nillable ,Điều chỉnh cho các khoản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct03,xs:long,1,1,nillable ,Khấu hao TSCĐ và BĐSĐT
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct04,xs:long,1,1,nillable ,Các khoản dự phòng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct05,xs:long,1,1,nillable ,"- Lãi, lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct06,xs:long,1,1,nillable ,"Lãi, lỗ từ hoạt động đầu tư"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct07,xs:long,1,1,nillable ,Chi phí lãi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct08,xs:long,1,1,nillable ,Các khoản điều chỉnh khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct09,xs:long,1,1,nillable ,3. Lợi nhuận từ hoạt động kinh doanh trước thay đổi vốn lưu động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct10,xs:long,1,1,nillable ,"Tăng, giảm các khoản phải thu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct11,xs:long,1,1,nillable ,"Tăng, giảm hàng tồn kho"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct12,xs:long,1,1,nillable ,"- Tăng, giảm các khoản phải trả (Không kể lãi vay phải trả, thuế thu nhập doanh nghiệp phải nộp)"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct13,xs:long,1,1,nillable ,"Tăng, giảm chi phí trả trước"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct14,xs:long,1,1,nillable ,"Tăng, giảm chứng khoán kinh doanh"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct15,xs:long,1,1,nillable ,Tiền lãi vay đã trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct16,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp đã nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct17,xs:long,1,1,nillable ,Tiền thu khác từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct18,xs:long,1,1,nillable ,Tiền chi khác cho hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct20,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct21,xs:long,1,1,nillable ,"1. Tiền chi để mua sắm, xây dựng TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct22,xs:long,1,1,nillable ,"2. Tiền thu từ thanh lý, nhượng bán TSCĐ, BĐSĐT và các tài sản dài hạn khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct23,xs:long,1,1,nillable ,"3. Tiền chi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct24,xs:long,1,1,nillable ,"4. Tiền thu hồi cho vay, đầu tư góp vốn vào đơn vị khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct25,xs:long,1,1,nillable ,"5.Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct30,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct31,xs:long,1,1,nillable ,"1.Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct32,xs:long,1,1,nillable ,"2.Tiền trả lại vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct33,xs:long,1,1,nillable ,3.Tiền thu từ đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct34,xs:long,1,1,nillable ,4. Tiền trả nợ gốc vay và nợ gốc thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct35,xs:long,1,1,nillable ,"6. Cổ tức, lợi nhuận đã trả cho chủ sở hữu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct40,xs:long,1,1,nillable ,Lưu chuyển tiền thuần từ hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct50,xs:long,1,1,nillable ,Lưu chuyển tiền thuần trong kỳ (50 = 20+30+40)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct60,xs:long,1,1,nillable ,Tiền và tương đương tiền đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct61,xs:long,1,1,nillable ,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_LCTTGT/NamTruoc/ct70,xs:long,1,1,nillable ,Tiền và tương đương tiền cuối kỳ (70 = 50+60+61)
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK ,[complex],0,1,,
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy,[complex],1,1,,số dư đầu kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No,[complex],1,1,,Nợ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành công trình xây dựng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/No/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co,[complex],1,1,,Có
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuDauKy/Co/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy,[complex],1,1,,Số phát sinh trong kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No,[complex],1,1,,Nợ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/No/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co,[complex],1,1,,Có
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoPhatSinhTrongKy/Co/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy,[complex],1,1,,Số dư cuối kỳ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No,[complex],1,1,,Nợ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/No/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co,[complex],1,1,,Có
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct111,xs:long,1,1,nillable ,Tiền mặt [111] = [1111] + [1112]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1111,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1112,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct112,xs:long,1,1,nillable ,Tiền gửi Ngân hàng [112] = [1121] + [1122]
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1121,xs:long,1,1,nillable ,Tiền Việt Nam
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1122,xs:long,1,1,nillable ,Ngoại tệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct121,xs:long,1,1,nillable ,Chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct128,xs:long,1,1,nillable ,Đầu tư nắm giữ đến ngày đáo hạn 128 = 1281+1288
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1281,xs:long,1,1,nillable ,Tiền gửi có kỳ hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1288,xs:long,1,1,nillable ,Các khoản đầu tư khác nắm giữ đến ngày đáo hạn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct131,xs:long,1,1,nillable ,Phải thu của khách hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct133,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1331,xs:long,1,1,nillable ,"Thuế GTGT được khấu trừ của hàng hóa, dịch vụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1332,xs:long,1,1,nillable ,Thuế GTGT được khấu trừ của TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct136,xs:long,1,1,nillable ,Phải thu nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1361,xs:long,1,1,nillable ,Vốn kinh doanh ở đơn vị trực thuộc
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1368,xs:long,1,1,nillable ,Phải thu nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct138,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1381,xs:long,1,1,nillable ,Tài sản thiếu chờ xử lý
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1386,xs:long,1,1,nillable ,"Cầm cố, thế chấp, ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct1388,xs:long,1,1,nillable ,Phải thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct141,xs:long,1,1,nillable ,Tạm ứng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct151,xs:long,1,1,nillable ,Hàng mua đang đi đường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct152,xs:long,1,1,nillable ,"Nguyên liệu, vật liệu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct153,xs:long,1,1,nillable ,"Công cụ, dụng cụ"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct154,xs:long,1,1,nillable ,"Chi phí sản xuất, kinh doanh dở dang"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct155,xs:long,1,1,nillable ,Thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct156 ,xs:long,1,1,nillable ,hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct157,xs:long,1,1,nillable ,Hàng gửi đi bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct211,xs:long,1,1,nillable ,Tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2111,xs:long,1,1,nillable ,TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2112,xs:long,1,1,nillable ,TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2113,xs:long,1,1,nillable ,TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct214,xs:long,1,1,nillable ,Hao mòn tài sản cố định
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2141,xs:long,1,1,nillable ,Hao mòn TSCĐ hữu hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2142,xs:long,1,1,nillable ,Hao mòn TSCĐ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2143,xs:long,1,1,nillable ,Hao mòn TSCĐ vô hình
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2147,xs:long,1,1,nillable ,Hao mòn bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct217,xs:long,1,1,nillable ,Bất động sản đầu tư
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct228,xs:long,1,1,nillable ,Đầu tư góp vốn vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2281,xs:long,1,1,nillable ,"Đầu tư vào công ty liên doanh, liên kết"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2288,xs:long,1,1,nillable ,Đầu tư khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct229,xs:long,1,1,nillable ,Dự phòng tổn thất tài sản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2291,xs:long,1,1,nillable ,Dự phòng giảm giá chứng khoán kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2292,xs:long,1,1,nillable ,Dự phòng tổn thất đầu tư vào đơn vị khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2293,xs:long,1,1,nillable ,Dự phòng phải thu khó đòi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2294,xs:long,1,1,nillable ,Dự phòng giảm giá hàng tồn kho
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct241,xs:long,1,1,nillable ,Xây dựng cơ bản dở dang
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2411,xs:long,1,1,nillable ,Mua sắm TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2412,xs:long,1,1,nillable ,Xây dựng cơ bản
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct2413,xs:long,1,1,nillable ,Sửa chữa lớn TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct242,xs:long,1,1,nillable ,Chi phí trả trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct331,xs:long,1,1,nillable ,Phải trả cho người bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct333,xs:long,1,1,nillable ,Thuế và các khoản phải nộp Nhà nước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3331,xs:long,1,1,nillable ,Thuế giá trị gia tăng phải nộp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct33311,xs:long,1,1,nillable ,Thuế GTGT đầu ra
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct33312,xs:long,1,1,nillable ,Thuế GTGT hàng nhập khẩu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3332,xs:long,1,1,nillable ,Thuế tiêu thụ đặc biệt
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3333,xs:long,1,1,nillable ,"Thuế xuất, nhập khẩu"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3334,xs:long,1,1,nillable ,Thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3335,xs:long,1,1,nillable ,Thuế thu nhập cá nhân
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3336,xs:long,1,1,nillable ,Thuế tài nguyên
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3337,xs:long,1,1,nillable ,"Thuế nhà đất, tiền thuê đất"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3338,xs:long,1,1,nillable ,Thuế bảo vệ môi trường và các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct33381,xs:long,1,1,nillable ,Thuế bảo vệ môi trường
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct33382,xs:long,1,1,nillable ,Các loại thuế khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3339,xs:long,1,1,nillable ,"Phí, lệ phí và các khoản phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct334,xs:long,1,1,nillable ,Phải trả người lao động
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct335,xs:long,1,1,nillable ,Chi phí phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct336,xs:long,1,1,nillable ,Phải trả nội bộ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3361,xs:long,1,1,nillable ,Phải trả nội bộ về vốn kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3368,xs:long,1,1,nillable ,Phải trả nội bộ khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct338,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3381,xs:long,1,1,nillable ,Tài sản thừa chờ giải quyết
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3382,xs:long,1,1,nillable ,Kinh phí công đoàn
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3383,xs:long,1,1,nillable ,Bảo hiểm xã hội
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3384,xs:long,1,1,nillable ,Bảo hiểm y tế
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3385,xs:long,1,1,nillable ,Bảo hiểm thất nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3386,xs:long,1,1,nillable ,"Nhận ký quỹ, ký cược"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3387,xs:long,1,1,nillable ,Doanh thu chưa thực hiện
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3388,xs:long,1,1,nillable ,"Phải trả, phải nộp khác"
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct341,xs:long,1,1,nillable ,Vay và nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3411,xs:long,1,1,nillable ,Các khoản đi vay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3412,xs:long,1,1,nillable ,Nợ thuê tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct352,xs:long,1,1,nillable ,Dự phòng phải trả
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3521,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3522,xs:long,1,1,nillable ,Dự phòng bảo hành sản phẩm hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3524,xs:long,1,1,nillable ,Dự phòng phải trả khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct353,xs:long,1,1,nillable ,Quỹ khen thưởng phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3531,xs:long,1,1,nillable ,Quỹ khen thưởng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3532,xs:long,1,1,nillable ,Quỹ phúc lợi
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3533,xs:long,1,1,nillable ,Quỹ phúc lợi đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3534,xs:long,1,1,nillable ,Quỹ thưởng ban quản lý điều hành công ty
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct356,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3561,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct3562,xs:long,1,1,nillable ,Quỹ phát triển khoa học và công nghệ đã hình thành TSCĐ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct411,xs:long,1,1,nillable ,Vốn đầu tư của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct4111,xs:long,1,1,nillable ,Vốn góp của chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct4112,xs:long,1,1,nillable ,Thặng dư vốn cổ phần
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct4118,xs:long,1,1,nillable ,Vốn khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct413,xs:long,1,1,nillable ,Chênh lệch tỷ giá hối đoái
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct418,xs:long,1,1,nillable ,Các quỹ thuộc vốn chủ sở hữu
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct419,xs:long,1,1,nillable ,Cổ phiếu quỹ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct421,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct4211,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm trước
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct4212,xs:long,1,1,nillable ,Lợi nhuận sau thuế chưa phân phối năm nay
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct511,xs:long,1,1,nillable ,Doanh thu bán hàng và cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct5111,xs:long,1,1,nillable ,Doanh thu bán hàng hóa
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct5112,xs:long,1,1,nillable ,Doanh thu bán thành phẩm
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct5113,xs:long,1,1,nillable ,Doanh thu cung cấp dịch vụ
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct5118,xs:long,1,1,nillable ,Doanh thu khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct515,xs:long,1,1,nillable ,Doanh thu hoạt động tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct611,xs:long,1,1,nillable ,Mua hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct631,xs:long,1,1,nillable ,Giá thành sản xuất
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct632,xs:long,1,1,nillable ,Giá vốn hàng bán
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct635,xs:long,1,1,nillable ,Chi phí tài chính
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct642,xs:long,1,1,nillable ,Chi phí quản lý kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct6421,xs:long,1,1,nillable ,Chi phí bán hàng
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct6422,xs:long,1,1,nillable ,Chi phí quản lý doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct711,xs:long,1,1,nillable ,Thu nhập khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct811,xs:long,1,1,nillable ,Chi phí khác
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct821,xs:long,1,1,nillable ,Chi phí thuế thu nhập doanh nghiệp
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/ct911,xs:long,1,1,nillable ,Xác định kết quả kinh doanh
+/HSoThueDTu/HSoKhaiThue/PLuc/PL_CDTK /SoDuCuoiKy/Co/tongCong,xs:long,1,1,nillable ,Tổng cộng
+/HSoThueDTu/HSoKhaiThue/@id,xs:ID,optional,,,
+/HSoThueDTu/CKyDTu,[complex] type=CKyDTuType,0,1,,Dữ liệu về các chữ ký điện tử trên hồ sơ
+/HSoThueDTu/CKyDTu/Signature,ref=ds:Signature,1,unbounded,external ref,Chữ ký điện tử

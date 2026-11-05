@@ -1,0 +1,11 @@
+services:
+  hoa-don-to-khai-trial:
+    build: .
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      - DVC_MODE=${DVC_MODE:-real}
+      - DVC_DELAY_MS=${DVC_DELAY_MS:-1200}
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
